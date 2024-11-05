@@ -69,7 +69,7 @@ section h2{
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 1200px; /* Adjust as needed */
+    max-width: 1200px; 
     margin: auto;
 }
 
@@ -79,9 +79,9 @@ section h2{
 }
 
 .project {
-    min-width: 100%; /* Show one project at a time */
+    min-width: 100%; 
     box-sizing: border-box;
-    padding: 20px; /* Optional: Add some padding */
+    padding: 20px; 
 }
 
 .carousel-button {
@@ -293,12 +293,12 @@ footer {
 }
 @media (max-width: 768px) {
     .skill {
-        flex: 0 1 calc(45% - 20px); /* Two items per row */
+        flex: 0 1 calc(45% - 20px); 
     }
 }
 
 @media (max-width: 480px) {
     .skill {
-        flex: 0 1 100%; /* One item per row */
+        flex: 0 1 100%; 
     }
 }
